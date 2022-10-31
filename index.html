@@ -11,24 +11,29 @@
 <body>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
 <!--SEECION CONTACTO-->
-<section id="contacto" class="seccion-contacto">
+
     <div class="container">
         <form name="contact" method="POST" data-netlify="true">
-
-                <input type="text" name="Fullname" placeholder="Write your Fullname" />
+                <div class="input-group">
+                    <input type="text" name="Fullname" />
+                    <label>Fullname</label>
+                </div>
 
                 <br>
-
-                <input type="email" name="email" placeholder="wirte your Email"/>
+                <div class="input-group">
+                    <input type="email" name="email"/>
+                    <label>Email</label>
+                </div>
                 <br>
-
-
-                <textarea name="message" placeholder="write your Message"></textarea></label>
+                <div class="input-group">
+                    <textarea name="message"></textarea>
+                    <label>Message</label>
+                </div>
             <p>
                 <button type="submit">Enviar</button>
             </p>
         </form>
     </div>
-</section>
+
 </body>
 </html>
